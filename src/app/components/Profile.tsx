@@ -1,6 +1,6 @@
 import { useLanguage } from '@/app/contexts/LanguageContext';
 import { GraduationCap, Briefcase, Award } from 'lucide-react';
-import profileImage from 'figma:asset/6d0e62a205a7e39636b045b9934088889e81530b.png';
+import profileImage from '@/assets/6d0e62a205a7e39636b045b9934088889e81530b.png';
 
 export const Profile = () => {
   const { t } = useLanguage();

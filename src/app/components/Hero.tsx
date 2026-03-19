@@ -1,7 +1,7 @@
 import { useLanguage } from '@/app/contexts/LanguageContext';
 import { WhatsAppButton } from '@/app/components/WhatsAppButton';
 import { Badge } from '@/app/components/ui/badge';
-import heroImage from 'figma:asset/2b78c6dd2ce1181dc95c8124de3c732d8bc11ed7.png';
+import heroImage from '@/assets/2b78c6dd2ce1181dc95c8124de3c732d8bc11ed7.png';
 
 export const Hero = () => {
   const { t } = useLanguage();
